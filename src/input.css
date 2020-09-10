@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.inputBox{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+   
+   /* background-image: url(https://www.niehs.nih.gov/health/assets/images/climate_change_og.jpg); */
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+
+}
+.inputBox__field >h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+.inputBox__field >img{
+    width:15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputBox__field{
+    padding: 10%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12),0 2px 3px rgba(0, 0, 0, 0.24);
+    padding-top: 50px;
+    margin: 20px;
+    padding-bottom: 50px;
+    
+}
+.inputBox__field >form> button{
+    margin-top: 30px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+
+}
+
