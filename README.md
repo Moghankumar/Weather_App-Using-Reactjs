@@ -72,4 +72,6 @@ In this Project We created localhost 5000 also here having build
 
 
 npm react build
+
+
 npx serve -s build(or) serve -s build
